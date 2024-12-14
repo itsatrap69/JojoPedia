@@ -1,0 +1,59 @@
+body {
+    color: rgb(228, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/imagepart1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+}
+
+h1 {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.title {
+    padding: 1%;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 4px inset blueviolet;
+    border-radius: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.maintxt {
+    order: 1;
+}
+
+.plotsummary {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 4px inset blueviolet;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.navbar {
+    order: 2;
+    font-size: 20px;
+}
+
+.navbarborder {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 4px inset blueviolet;
+    padding: 15px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
