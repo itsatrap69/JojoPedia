@@ -1,4 +1,3 @@
-
 // Add comments (as divs)
 let comments = document.getElementById("comments");
 
